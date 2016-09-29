@@ -11,6 +11,11 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_grid_update.gml</script>
+    <script>scripts\scr_grid_collision.gml</script>
+    <script>scripts\scr_grid_draw.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_block</object>
     <object>objects\obj_engine</object>

@@ -78,6 +78,8 @@ if (power_up_chance &lt; POWER_UP_CHANCE){
             <kind>1</kind>
             <string>/// Decrease brick count
 obj_engine.board_bricks -= 1;
+
+//show_debug_message("Bricks Left: " + string(obj_engine.board_bricks));
 </string>
           </argument>
         </arguments>
