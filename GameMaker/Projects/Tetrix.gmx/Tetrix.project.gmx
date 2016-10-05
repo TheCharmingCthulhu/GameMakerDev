@@ -12,9 +12,11 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_grid_update.gml</script>
-    <script>scripts\scr_grid_collision.gml</script>
-    <script>scripts\scr_grid_draw.gml</script>
+    <script>scripts\scr_block_create.gml</script>
+    <script>scripts\scr_block_adjust.gml</script>
+    <script>scripts\scr_block_fall.gml</script>
+    <script>scripts\scr_block_move.gml</script>
+    <script>scripts\scr_block_collision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_block</object>
